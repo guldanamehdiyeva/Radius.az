@@ -1,0 +1,164 @@
+/*All colors========================================================*/
+:root {
+    // bg
+    --advertising-bg: #4782F5;
+    
+  
+    
+    
+    
+    // color
+    --main-text: #1D1E21;
+    
+    
+  }
+  
+  // https://chir.ag/projects/name-that-color - color names
+  
+  $all-colors: (
+    bg-colors: (
+        cornflower-blue: var( --advertising-bg),
+        
+    ),
+    
+    text-colors: (
+        shark: var(--main-text),
+        
+
+     
+    )
+  );
+  
+  /* Background colors=============================================================== */
+  @include make-colors(map-get($all-colors, bg-colors), bg);
+  
+
+
+
+  /* Text colors=============================================================== */
+  @include make-colors(map-get($all-colors, text-colors));
+
+
+  /*Filter Colors*/
+  .filter-crimson{filter: invert(23%) sepia(86%) saturate(4520%) hue-rotate(353deg) brightness(96%) contrast(86%);}
+
+
+  /*Squares===============================================================*/
+  $squares: (
+    xs: (16:16, 28:28,48:48)
+  );
+
+  @include make-shape($squares, square);
+
+
+  /*Rectangles====================================*/
+  $rectangles: (
+  xs: (27: 20,202:48,190:48)
+  
+  );
+
+  @include make-shape($rectangles);
+
+
+
+/*Heights===============================================================*/
+$heights:30;
+@each $height in $heights {
+  .h-#{$height} { height: #{$height}px }
+}
+
+
+/*Widths===============================================================*/
+$widths:6,;
+@each $width in $widths {
+  .w-#{$width} { width: #{$width}px };
+ 
+}
+
+
+/* Borders ===============================================================*/
+$border-colors: #D9D9D9 ;
+@each $brd-color in $border-colors {
+  $brd-color: str-replace(to-string($brd-color), '#', '');
+  .border-#{$brd-color} { border-color: #{'#'}#{$brd-color} }
+}
+
+
+/* Border radius=============================================================== */
+$radius:3,;
+@each $rad in $radius {
+  .radius-#{$rad} { border-radius: #{$rad}px }  
+}
+
+
+
+
+/* Icons=============================================================== */
+$icons: russian-flag, arrow-down, price, location, calendar,phone,search,c,shopping-cart;
+@each $icon in $icons {
+  .icon-#{$icon} { background-image: url("../img/icons/"+ $icon +".svg") }
+}
+
+
+
+
+/*Images===============================================================*/
+$images:  advertising-bg, ;
+@each $image in $images {
+  .img-#{$image} { background-image: url("../img/"+ $image +".svg") }
+}
+
+
+
+
+/*Input styles=============================================*/
+
+
+.input::placeholder{
+  color: #272C38!important;
+  opacity: 0.4!important;
+  font-family: 'TT Hoves' , sans-serif;
+ 
+ 
+}
+
+input::-webkit-input-placeholder{
+  @extend .color-white;
+  opacity: 0.6;
+  font-size: 15px;
+  line-height: 24px;
+  transition: all .4s ease;
+  @extend .fw-400;
+}
+
+:focus::-webkit-input-placeholder{opacity: 1;}
+
+
+/*Others===========================================================*/
+.left-pos{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-pos{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.overflow-hidden{overflow: hidden;}
+
+
+/*Hamburger Menu*/
+.link-white {
+  a, a * { color: $color-white !important; }
+
+  .hamburger .hamburger-inner { background-color: $color-white; }
+
+  #js-menu-mobile {
+    a, a * { color: $color-black !important; }
+
+    .hamburger .hamburger-inner { background-color: $color-black }
+  }
+}
