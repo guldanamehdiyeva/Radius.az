@@ -9,4 +9,4 @@ const __menuToggleMobileActions = () => {
 };
 
 
-console.log('hello')
+console.log('hello');

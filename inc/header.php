@@ -38,12 +38,12 @@
         </div>
     </section>
 </div>
-<div class="w-100p pos-fixed h-100-vh  overflow-x-hidden js-menu-mobile full-height-cabinet-lg">
+<div class="w-100p pos-fixed h-100-vh  overflow-x-hidden js-menu-mobile">
     <div class="w-100p d-inline-flex-xy bg-alabaster py-3">
         <span class="icon icon-search square-22 opacity-3 mr-2"></span>
         <span class="color-shark opacity-3 fs-18 lh-24">Что вы хотите найти?</span>
     </div>
-    <div class="bg-gallery pt-5">
+    <div class="bg-gallery pos-relative full-height pt-5">
        <div class="text-center pt-3 mb-5 pb-5">
             <span class="fs-32 lh-40 fw-600 d-block ">Сервисы</span>
             <span class="fs-32 lh-40 fw-600 d-block mt-4">Товары</span>
@@ -51,7 +51,7 @@
             <span class="fs-32 lh-40 fw-600 d-block mt-4">Для клиентов</span>
             <span class="fs-32 lh-40 fw-600 d-block mt-4">Акции и события</span>
        </div>
-       <div class="d-flex-y-center justify-content-between mt-4 pt-2 pb-5 px-3 mx-1">
+       <div class="d-flex-y-center pos-absolute bot-10p w-100p justify-content-between mt-4 pt-2 pb-5 px-3 mx-1">
            <span>
                 <span class="icon icon-russian-flag rect-27-20"></span>
                 <span class="fs-18 lh-24 opacity-5 mx-2">РУ</span>

@@ -69,6 +69,7 @@ $heights:30;
 @each $height in $heights {
   .h-#{$height} { height: #{$height}px }
 }
+.full-height{height: calc(100vh - 56px)}
 
 
 /*Widths===============================================================*/
@@ -164,9 +165,4 @@ input::-webkit-input-placeholder{
 
     .hamburger .hamburger-inner { background-color: $color-black }
   }
-}
-
-
-.full-height-cabinet-lg {
-  height: calc(100vh - 154px + 64px);
 }

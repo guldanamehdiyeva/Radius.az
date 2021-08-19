@@ -263,6 +263,10 @@ figure {
   bottom: 0;
 }
 
+.bot-10p {
+  bottom: 10%;
+}
+
 .right-100p {
   right: 100%;
 }
@@ -617,6 +621,10 @@ figure {
   height: 30px;
 }
 
+.full-height {
+  height: calc(100vh - 56px);
+}
+
 /*Widths===============================================================*/
 .w-6 {
   width: 6px;
@@ -742,10 +750,6 @@ input::-webkit-input-placeholder {
 }
 .link-white #js-menu-mobile .hamburger .hamburger-inner {
   background-color: #000;
-}
-
-.full-height-cabinet-lg {
-  height: calc(100vh - 154px + 64px);
 }
 
 .roboto {
