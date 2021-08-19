@@ -1,7 +1,9 @@
 /*All colors========================================================*/
 :root {
     // bg
-    --advertising-bg: #4782F5;
+    --calendar-bg:#EAEAEA;
+    --search-bg:#F8F8F8;
+
     
   
     
@@ -17,12 +19,13 @@
   
   $all-colors: (
     bg-colors: (
-        cornflower-blue: var( --advertising-bg),
+      gallery: var( --calendar-bg),
+      alabaster: var(--search-bg),
         
     ),
     
     text-colors: (
-        shark: var(--main-text),
+      shark: var(--main-text),
         
 
      
@@ -45,7 +48,7 @@
 
   /*Squares===============================================================*/
   $squares: (
-    xs: (16:16, 28:28,48:48)
+    xs: (16:16,22:22,24:24, 28:28, 40:40,48:48)
   );
 
   @include make-shape($squares, square);
@@ -53,7 +56,7 @@
 
   /*Rectangles====================================*/
   $rectangles: (
-  xs: (27: 20,202:48,190:48)
+  xs: (27: 20,202:48,190:48,116:20)
   
   );
 
@@ -161,4 +164,9 @@ input::-webkit-input-placeholder{
 
     .hamburger .hamburger-inner { background-color: $color-black }
   }
+}
+
+
+.full-height-cabinet-lg {
+  height: calc(100vh - 154px + 64px);
 }

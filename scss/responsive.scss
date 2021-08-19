@@ -251,6 +251,19 @@
         @extend .d-xl-flex-y-center;
       }
     }
+
+    .d-xl-inline-flex {
+      display: inline-flex!important;
+      &-x-center { display: inline-flex !important; justify-content: center }
+      &-x-between { display: inline-flex !important; justify-content: space-between }
+      &-y-center { display: inline-flex !important; align-items: center }
+      &-xy {
+        @extend .d-xl-flex-x-center;
+        @extend .d-xl-flex-y-center;
+      }
+    }
+
+    .d-xl-none{display: none!important;}
 }
 
 

@@ -111,7 +111,7 @@ body{
 .underline-0 { text-decoration: none }
 .opacity-0{opacity: 0;}
 .opacity-01 {opacity: 0.1;}
-.opacity-4{opacity: 0.4;}
+.opacity-3{opacity: 0.3;}
 .opacity-5 { opacity: 0.5 }
 .opacity-6 { opacity: 0.6 }
 .pos-absolute{position: absolute;}
@@ -209,20 +209,27 @@ body{
   border: 0;
   margin: 0;
   overflow: visible;
+  border: 1px solid #0072FF;
+  border-radius: 3px;
+  @extend .d-inline-flex-x-center;
+  @extend .square-40;
+  
 }
+
 .hamburger:hover { opacity: 0.7; }
 .hamburger.is-active:hover { opacity: 0.7; }
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
-.hamburger.is-active .hamburger-inner::after { background-color: $color-white; }
+.hamburger.is-active .hamburger-inner::after { background-color:#0072FF; }
 .hamburger.is-active.hamburger-hover-no:hover,
 .hamburger-hover-no:hover { opacity: 1 }
 
 .hamburger-box {
   width: 32px;
   height: 32px;
-  display: inline-block;
   position: relative;
+  @extend .d-inline-flex-xy
+
 }
 
 .hamburger-inner {
@@ -233,9 +240,9 @@ body{
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-  width: 32px;
-  height: 2px;
-  background-color: $color-white;
+  width: 16px;
+  height: 1px;
+  background-color:#0072FF;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -284,4 +291,4 @@ body{
 .hamburger-border.hamburger.is-active .hamburger-inner::after,
 .hamburger-border .hamburger-inner:before,
 .hamburger-border .hamburger-inner:after,
-.hamburger-border .hamburger-inner { background-color: #fff; }
+.hamburger-border .hamburger-inner { background-color:#0072FF; }
