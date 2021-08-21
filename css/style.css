@@ -891,9 +891,17 @@ input::-webkit-input-placeholder {
     font-size: 18px;
   }
 
+  .fs-lg-26 {
+    font-size: 26px;
+  }
+
   /*Line heights=========================================================*/
   .lh-lg-24 {
     line-height: 24px;
+  }
+
+  .lh-lg-32 {
+    line-height: 32px;
   }
 }
 @media (min-width: 1200px) {

@@ -38,7 +38,7 @@
         </div>
     </section>
 </div>
-<div class="w-100p pos-fixed h-100-vh  overflow-x-hidden js-menu-mobile">
+<div class="w-100p pos-fixed h-100-vh left-100p overflow-x-hidden js-menu-mobile">
     <div class="w-100p d-inline-flex-xy bg-alabaster py-3">
         <span class="icon icon-search square-22 opacity-3 mr-2"></span>
         <span class="color-shark opacity-3 fs-18 lh-24">Что вы хотите найти?</span>

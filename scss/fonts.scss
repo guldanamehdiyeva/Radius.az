@@ -40,12 +40,12 @@
   
   @media (min-width: map-get($break-points-config, lg)) {
   /*Font sizes=========================================================*/
-    $font-sizes:18;
+    $font-sizes:18,26;
     @each $size in $font-sizes {
       .fs-lg-#{$size} { font-size: #{$size}px }
     }
   /*Line heights=========================================================*/
-    $line-heights: 24, ;
+    $line-heights: 24,32 ;
     @each $lh in $line-heights {
       .lh-lg-#{$lh} { line-height: #{$lh}px }
     }
