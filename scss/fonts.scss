@@ -27,7 +27,7 @@
 
   @media (min-width: map-get($break-points-config, md)) {
       /*Font sizes=========================================================*/
-      $font-sizes:16, 18, 20, 40;
+      $font-sizes:16, 18, 20,26,40;
       @each $size in $font-sizes {
         .fs-md-#{$size} { font-size: #{$size}px }
       }

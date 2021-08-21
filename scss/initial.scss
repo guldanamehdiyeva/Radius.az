@@ -6,7 +6,7 @@ body{
     
  }
 
- figure{
+ figure,.row{
    margin: 0;
  }
 
@@ -112,6 +112,7 @@ body{
 .opacity-0{opacity: 0;}
 .opacity-01 {opacity: 0.1;}
 .opacity-3{opacity: 0.3;}
+.opacity-4{opacity: 0.4;}
 .opacity-5 { opacity: 0.5 }
 .opacity-6 { opacity: 0.6 }
 .pos-absolute{position: absolute;}
@@ -119,12 +120,18 @@ body{
 .pos-fixed{position: fixed;}
 .top-0{top: 0;}
 .bottom-0{bottom: 0;}
+.top-50p{
+  top: 50%;
+  transform: translateY(-50%);
+}
 .bot-10p{bottom: 10%;}
 .right-100p{right: 100%;}
 .right-0{right: 0;}
+.left-50p{left: 50%;}
 .left-100p{left: 100%;}
 .left-0{left: 0;}
 .z-n1 { z-index: -1 !important; }
+.z-2{z-index: 2;}
 .z-100{z-index: 100;}
 .z-200 {z-index: 200;}
 .z-1000{z-index: 1000;}

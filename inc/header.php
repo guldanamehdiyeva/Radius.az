@@ -29,8 +29,8 @@
                 <span class="border border-D9D9D9 radius-3 square-40 d-inline-flex-xy ml-2">
                     <span class="icon icon-shopping-cart square-24 mr-1"></span>
                 </span>
-                <span class="hamburger hamburger--squeeze events-none ml-2">
-                    <span class="hamburger-box mt-1">
+                <span class="hamburger hamburger--squeeze events-none d-inline-flex-y-center ml-2">
+                    <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
                 </span>
@@ -71,8 +71,8 @@
 
 
 <div class="d-none d-lg-block">
-    <section class="container">
-        <div class="row justify-content-between my-1 py-3">
+    <section class="container-fluid px-xl-4">
+        <div class="row justify-content-between my-1 py-3 px-3 px-xl-5 mx-xl-5">
             <div class="col-lg-6 col-xl-5 d-inline-flex-y-center">
                 <a href="index.php">
                     <figure>
@@ -89,7 +89,7 @@
                     <span class="icon icon-arrow-down square-16 ml-2"></span>
                 </div>
             </div>
-            <div class="col-lg-6 d-inline-flex-y-center justify-content-end">
+            <div class="col-lg-6 col-xl-7 d-inline-flex-y-center justify-content-end">
                 <span class="border border-D9D9D9 radius-3 square-48 d-inline-flex-xy mr-1">
                     <span class="icon icon-location square-28 filter-crimson"></span>
                 </span>

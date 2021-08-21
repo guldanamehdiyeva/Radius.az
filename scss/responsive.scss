@@ -6,23 +6,30 @@
 
 
 @media (min-width: map-get($break-points-config, md)) {
-  /*Slider*/
-  .slider1.swiper-container{height: 571px!important;}
   
   /*Width height*/
   .w-md-156 {width: 156px;}
   .w-md-469{width: 469px;}
+  .h-md-40{height: 40px;}
   .h-md-410{height: 410px;}
 
-  .rect-md-50-40{
-    width: 50px;
-    height: 40px;
+
+  .square-md-20{
+    width: 20px;
+    height: 20px;
+  }
+
+  .rect-md-192-55{
+    width: 192px;
+    height: 55px;
   }
   .rect-md-469-188{
     width: 469px;
     height: 188px;
   }
 
+  /*Colors*/
+  .bg-md-iron{background-color: #D0D2D6;}
   
 
   /*Position*/
@@ -49,48 +56,7 @@
 
 
 @media (min-width: map-get($break-points-config, lg)) {
-  /*Swiper slider*/
-  .slider2.swiper-container{height: 776px!important;}
-  .slider3.swiper-container, .slider5.swiper-container{height: 100%;} 
-
-  .swiper {
-    &-pagination-my2 {
-      display: block!important;
-      
-    }
-
-    &-pagination-bullet2 {
-    width: 8px;
-    height: 8px;
-    margin-top: 24px;
-    margin-right: auto;
-    margin-left: auto;
-    opacity: 0.1;
-    background-color: #000000;
-    display: block;
-    border-radius: 100%;
-
-    &:first-child { margin-top: 0 }
-    &-my2-active { 
-      border: 3px solid #007332;
-      background: transparent;
-      width: 16px;
-      height: 16px;
-      opacity: 1;
-      outline: none;
-      }
-    }
-  
-  }
-
-  .pagination-pos{
-    top: 24%;
-    right: auto;
-  }
-
-  /*Timer*/
-  .countMinutes,.countHours{margin-right: 14px}
-
+ 
   /*Widths=====================================================*/
   $widths:56, 90,175,195, 246, 350, 440, 470, 608, 625,672;
   @each $width in $widths {
@@ -118,7 +84,7 @@
   
   /*Rectangles====================================*/
   $rectangles: (
-    lg: (61: 86, 108:55 )
+    lg: (480:72, )
     
     );
 
