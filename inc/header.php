@@ -10,9 +10,9 @@
 
 <!--Mobile Header-->
 <div class="d-lg-none">
-    <section class="container">
+    <section class="container-fluid">
         <div class="row py-2 my-1">
-            <div class="col-4 d-inline-flex-y-center">
+            <div class="col-4 pl-1 pl-lg-0 d-inline-flex-y-center">
                 <a href="index.php">
                     <figure>
                         <img src="img/logo.svg" alt="logo" class="rect-116-20">
@@ -20,7 +20,7 @@
                 </a>
             </div>
             <div class="col-8 d-inline-flex justify-content-end">
-                <span class="border border-D9D9D9 radius-3 square-40 d-inline-flex-xy mr-1">
+                <span class="border border-D9D9D9 radius-3 square-40 d-i5-none d-inline-flex-xy mr-1">
                     <span class="icon icon-location square-24 filter-crimson"></span>
                 </span>
                 <span class="border border-D9D9D9 radius-3 square-40 d-inline-flex-xy ml-2 mr-1">

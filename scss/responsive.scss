@@ -1,5 +1,13 @@
 @media (max-width:321px){
-  .w-i5-286{width: 286px;}
+  .w-i5-74{width: 74px;}
+  .w-i5-132{width: 132px!important;}
+  .mr-i5-1{margin-right: 4px!important;}
+  .d-i5-none{display: none!important;}
+}
+
+@media (max-width:768px){
+  .w-sm-100p{width: 100%;}
+  .w-sm-160{width: 160px;}
 }
 
 
@@ -8,6 +16,7 @@
 @media (min-width: map-get($break-points-config, md)) {
   
   /*Width height*/
+  .w-md-100p{width: 100%;}
   .w-md-156 {width: 156px;}
   .w-md-469{width: 469px;}
   .h-md-40{height: 40px;}
@@ -19,6 +28,10 @@
     height: 20px;
   }
 
+  .rect-lg-154-56{
+    width: 154px;
+    height: 56px;
+  }
   .rect-md-192-55{
     width: 192px;
     height: 55px;
@@ -58,15 +71,13 @@
 @media (min-width: map-get($break-points-config, lg)) {
  
   /*Widths=====================================================*/
-  $widths:56, 90,175,195, 246, 350, 440, 470, 608, 625,672;
+  $widths:306, 350, 440, 470, 608, 625,672;
   @each $width in $widths {
     .w-lg-#{$width} { width: #{$width}px }
   }
 
-  .w-lg-220{width: 220.44px;}
-  .w-lg-70p{width: 70%;}
-  .w-lg-95p{width:95%}
-  .w-lg-100p{width: 100%;}
+  
+  
 
   /*Heights=====================================================*/
   $heights: 58, 89, 164, 186, 472, 632, 640, 700, 708, 939 ;
@@ -84,7 +95,7 @@
   
   /*Rectangles====================================*/
   $rectangles: (
-    lg: (480:72, )
+    lg: (480:72,306:284,150:30, )
     
     );
 
@@ -171,18 +182,12 @@
     .h-xl-100p{height: 100%;}
     .h-xl-89-vh{height: 89vh;}
     .h-xl-100vh{height: 100vh;}
-    .h-xl-670{height: 670px;}
-    .h-xl-799{height: 799px;}
-
-
-    .w-xl-90{width: 90px;}
-    .w-xl-91{width: 91px;}
-    .w-xl-143{width: 143px;}
-    .w-xl-199{width: 199px;}
-    .w-xl-302{width: 302px;}
-    .w-xl-350{width: 350px;}
-    .w-xl-440{width: 440px;}
-    .w-xl-700{width: 700px;}
+    .w-xl-66p{width: 66%;}
+    
+    .rect-xl-210-30{
+      width: 210px;
+      height: 30px;
+    }
 
     /*Others*/
     .bg-xl-right {background-position: right;}

@@ -6,6 +6,10 @@
     --selectric-bg:#D0D2D6;
     --main-page-bg:#DFE0E3;
     --button-bg:#5A5E65;
+    --btn-bg:#1D1E21;
+    --btnn-bg:#E43123;
+    --num-bg:#FBFBFB;
+    --service-bg: #F1F1F1;
 
     
   
@@ -14,6 +18,9 @@
     
     // color
     --main-text: #1D1E21;
+    --checkbox-text:#0072FF;
+    --number-color:#E43123;
+    --service-text:#393939;
     
     
   }
@@ -27,11 +34,18 @@
       iron: var(--selectric-bg),
       irongr:var(--main-page-bg),
       shuttle:var(--button-bg),
+      shark:var(--btn-bg),
+      alizarin:var(--btnn-bg),
+      alabas:var(--num-bg),
+      seashell:var(--service-bg)
         
     ),
     
     text-colors: (
       shark: var(--main-text),
+      ribbon: var(--checkbox-text),
+      crimson: var(--number-color),
+      mine: var(--service-text)
         
 
      
@@ -54,7 +68,7 @@
 
   /*Squares===============================================================*/
   $squares: (
-    xs: (14:14,16:16,22:22,24:24, 28:28, 40:40,48:48)
+    xs: (14:14,16:16,22:22,24:24, 28:28, 40:40,48:48,80:80)
   );
 
   @include make-shape($squares, square);
@@ -62,7 +76,7 @@
 
   /*Rectangles====================================*/
   $rectangles: (
-  xs: (27: 20,202:48,190:48,116:20,109:43,)
+  xs: (27: 20,120:17,202:48,190:48,116:20,109:43,101:48)
   
   );
 
@@ -71,7 +85,7 @@
 
 
 /*Heights===============================================================*/
-$heights:24,30,40;
+$heights:24,30,40,88;
 @each $height in $heights {
   .h-#{$height} { height: #{$height}px }
 }
@@ -79,7 +93,7 @@ $heights:24,30,40;
 
 
 /*Widths===============================================================*/
-$widths:6,;
+$widths:6,160;
 @each $width in $widths {
   .w-#{$width} { width: #{$width}px };
  
@@ -87,15 +101,16 @@ $widths:6,;
 
 
 /* Borders ===============================================================*/
-$border-colors: #D9D9D9, #fff, ;
+$border-colors: #D9D9D9, #fff, #1D1E21,#0072FF, #CACACA, #E4E6E9, ;
 @each $brd-color in $border-colors {
   $brd-color: str-replace(to-string($brd-color), '#', '');
   .border-#{$brd-color} { border-color: #{'#'}#{$brd-color} }
 }
 
+.border-top-right-E4E6E9{border-color: transparent #E4E6E9 #E4E6E9 transparent;}
 
 /* Border radius=============================================================== */
-$radius:3,;
+$radius:2,3,;
 @each $rad in $radius {
   .radius-#{$rad} { border-radius: #{$rad}px }  
 }
@@ -104,7 +119,7 @@ $radius:3,;
 
 
 /* Icons=============================================================== */
-$icons: russian-flag, arrow-down, price, location, calendar,phone,search,c,shopping-cart;
+$icons: russian-flag, arrow-down, price, location, calendar,phone,search,c,shopping-cart,montaj;
 @each $icon in $icons {
   .icon-#{$icon} { background-image: url("../img/icons/"+ $icon +".svg") }
 }
@@ -171,4 +186,32 @@ input::-webkit-input-placeholder{
 
     .hamburger .hamburger-inner { background-color: $color-black }
   }
+}
+
+/*Checkbox======================================*/
+.checkmark{
+  transition: all .6s ease;
+}
+
+.checkmark::after {
+  content: '';
+  position: absolute;
+  width: 11px;
+  height: 8px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-radius: 1px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(-50deg);
+  opacity: 0;
+  transition: all .6s ease;
+}
+ 
+#check:checked ~ .checkmark {
+   background-color: #0072FF;
+}
+
+#check:checked ~ .checkmark::after {
+  opacity: 1;
 }

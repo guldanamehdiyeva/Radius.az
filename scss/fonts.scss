@@ -7,7 +7,7 @@
   }
   
   /* Line heights========================================================= */
-  $line-heights:16, 18, 20,  24, 28, 32, 36,40;
+  $line-heights:16, 18, 20,  24, 28, 32, 36,40ç48;
   @each $lh in $line-heights {
     .lh-#{$lh} { line-height: #{$lh}px }
   }
@@ -16,7 +16,7 @@
   
   
   /* Font sizes =========================================================*/
-  $font-sizes:9,10,11,12, 13, 14, 15, 16, 18, 20, 24, 30,32 ;
+  $font-sizes:9,10,11,12, 13, 14, 15, 16, 18, 20, 24, 30,32,36 ;
   @each $size in $font-sizes {
     .fs-#{$size} { font-size: #{$size}px }
   }
@@ -40,12 +40,12 @@
   
   @media (min-width: map-get($break-points-config, lg)) {
   /*Font sizes=========================================================*/
-    $font-sizes:18,26;
+    $font-sizes:15,16,18,20,26,32,45;
     @each $size in $font-sizes {
       .fs-lg-#{$size} { font-size: #{$size}px }
     }
   /*Line heights=========================================================*/
-    $line-heights: 24,32 ;
+    $line-heights: 24,32,56,72 ;
     @each $lh in $line-heights {
       .lh-lg-#{$lh} { line-height: #{$lh}px }
     }
@@ -55,7 +55,7 @@
   
   @media (min-width: 1200px) {
     /*Font sizes=========================================================*/
-      $font-sizes:  18, 48;
+      $font-sizes:  18, 48,64;
       @each $size in $font-sizes {
         .fs-xl-#{$size} { font-size: #{$size}px }
       }
