@@ -13,6 +13,10 @@ $isIndex = strpos($_SERVER['SCRIPT_NAME'], 'index');
 
     <!--Selectric Css-->
     <link rel="stylesheet" href="css/vendor/selectric.css">
+
+    <!--slider-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <!--Bootstrap-grid Css -->
     <link rel="stylesheet" href="css/vendor/bootstrap-grid.css">
     <!--Style Css-->

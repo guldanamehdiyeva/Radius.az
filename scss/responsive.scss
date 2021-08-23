@@ -10,6 +10,9 @@
   .w-sm-160{width: 160px;}
 }
 
+@media (max-width:991px){
+  .img-vector{background-image: url(../img/vector.svg);}
+}
 
 
 
@@ -69,6 +72,9 @@
 
 
 @media (min-width: map-get($break-points-config, lg)) {
+
+  /*Colors*/
+  .bg-lg-gradient-blue{background: linear-gradient(0deg, #222222, #222222), #4C4E54;}
  
   /*Widths=====================================================*/
   $widths:306, 350, 440, 470, 608, 625,672;
@@ -110,7 +116,7 @@
 
 
   /*Images===============================================================*/
-  $images:  time-bg;
+  $images:  vector;
   @each $image in $images {
     .img-lg-#{$image} { background-image: url("../img/"+ $image +".svg") }
   }
@@ -118,7 +124,7 @@
 
   /*Others=====================================================*/
   .border-lg-none{border: none;}
-  .bg-lg-center { background-position: center center; }
+  .bg-lg-right { background-position:right; }
   .text-lg-left { text-align: left }
   .text-lg-center{text-align: center;}
   .opacity-lg-1 { opacity: 1 }

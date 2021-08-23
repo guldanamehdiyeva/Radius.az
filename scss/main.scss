@@ -10,6 +10,8 @@
     --btnn-bg:#E43123;
     --num-bg:#FBFBFB;
     --service-bg: #F1F1F1;
+    --gasoil-bg:#4C4E54;
+    --tires-bg:#1d1b1b;
 
     
   
@@ -37,7 +39,9 @@
       shark:var(--btn-bg),
       alizarin:var(--btnn-bg),
       alabas:var(--num-bg),
-      seashell:var(--service-bg)
+      seashell:var(--service-bg),
+      abbey:var(--gasoil-bg),
+      cod:var(--tires-bg)
         
     ),
     
@@ -56,6 +60,7 @@
   @include make-colors(map-get($all-colors, bg-colors), bg);
   
 
+ 
 
 
   /* Text colors=============================================================== */
@@ -128,7 +133,7 @@ $icons: russian-flag, arrow-down, price, location, calendar,phone,search,c,shopp
 
 
 /*Images===============================================================*/
-$images:  advertising-bg, ;
+$images:  advertising-bg,  ;
 @each $image in $images {
   .img-#{$image} { background-image: url("../img/"+ $image +".svg") }
 }

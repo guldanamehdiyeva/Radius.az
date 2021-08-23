@@ -7,6 +7,9 @@
 <!--Selectric Plugin-->
 <script src="js/vendor/jquery.selectric.min.js"></script>
 
+<!--Slider-->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 <!--Javascript-->
 <script src="js/function.js"></script>
 <script src="js/main.js"></script>

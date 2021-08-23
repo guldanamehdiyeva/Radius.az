@@ -3,7 +3,7 @@ var swiper= new Swiper("#slider",{
     
     autoplay:{
         delay:1500,
-        disableOnInteraction:false
+        disableOnInteraction:true
     },
     
     loop:true
@@ -11,4 +11,4 @@ var swiper= new Swiper("#slider",{
 })
 
 
-console.log('hii')
+console.log('hiiss')
