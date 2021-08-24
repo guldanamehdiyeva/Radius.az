@@ -116,4 +116,60 @@
     </section>
 </div>
 
+<div class="bg-concrete">
+    <section class="container-fluid px-lg-5">
+        <div class="row px-lg-5 mx-lg-4">
+            <div class="col-lg-3">
+                <div>
+                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Сервисы</p>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24">Шиномонтаж</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Сход / Развал</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Ремонт шин</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Шинный отель</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Ремонт дисков</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Покраска дисков и шин</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Масляный сервис</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Фильтрация</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Сервис тормозной системы</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Аккумляторный сервис</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Кондиционерный сервис</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Сервис тормозной системы</a>
+            
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div>
+                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Товары</p>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24">Шины</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Диски</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Масло и жидкости</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Присадки</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Аккумлятор</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Фильтры</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Компоненты тормозной системы</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Аксесуары</a>
+            
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div>
+                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Для клиентов</p>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24">Оплата и доставка</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">FAQ</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Гарантийный талон</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Программа лояльноси</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Права клиента</a>
+                </div>
+                <div class="mt-4 pt-3">
+                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">О нас</p>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24">О компании</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Нас выбирают</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Сертификаты</a>
+                    <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 <?php require_once 'inc/foot.php' ?>

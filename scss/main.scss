@@ -12,6 +12,8 @@
     --service-bg: #F1F1F1;
     --gasoil-bg:#4C4E54;
     --tires-bg:#1d1b1b;
+    --footer-bg:#f3f3f3;
+    
 
     
   
@@ -23,6 +25,7 @@
     --checkbox-text:#0072FF;
     --number-color:#E43123;
     --service-text:#393939;
+    --link-color:#343434;
     
     
   }
@@ -41,7 +44,9 @@
       alabas:var(--num-bg),
       seashell:var(--service-bg),
       abbey:var(--gasoil-bg),
-      cod:var(--tires-bg)
+      cod:var(--tires-bg),
+      concrete:var(--footer-bg)
+
         
     ),
     
@@ -49,8 +54,9 @@
       shark: var(--main-text),
       ribbon: var(--checkbox-text),
       crimson: var(--number-color),
-      mine: var(--service-text)
-        
+      mine: var(--service-text),
+      shaft: var(--link-color)
+      
 
      
     )
