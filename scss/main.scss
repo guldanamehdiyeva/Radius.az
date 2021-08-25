@@ -26,6 +26,7 @@
     --number-color:#E43123;
     --service-text:#393939;
     --link-color:#343434;
+    --txt-color:#555555;
     
     
   }
@@ -55,7 +56,8 @@
       ribbon: var(--checkbox-text),
       crimson: var(--number-color),
       mine: var(--service-text),
-      shaft: var(--link-color)
+      shaft: var(--link-color),
+      emperor: var(--txt-color)
       
 
      
@@ -79,7 +81,7 @@
 
   /*Squares===============================================================*/
   $squares: (
-    xs: (14:14,16:16,22:22,24:24, 28:28, 40:40,48:48,80:80)
+    xs: (14:14,16:16,20:20,22:22,24:24, 28:28, 40:40,48:48,80:80)
   );
 
   @include make-shape($squares, square);
@@ -87,7 +89,7 @@
 
   /*Rectangles====================================*/
   $rectangles: (
-  xs: (27: 20,120:17,202:48,190:48,116:20,109:43,101:48)
+  xs: (27: 20,29:24,120:17,202:48,190:48,116:20,109:43,101:48)
   
   );
 
@@ -112,7 +114,7 @@ $widths:6,160;
 
 
 /* Borders ===============================================================*/
-$border-colors: #D9D9D9, #fff, #1D1E21,#0072FF, #CACACA, #E4E6E9, ;
+$border-colors: #D9D9D9, #fff, #1D1E21,#0072FF, #CACACA, #E4E6E9,#DEDEDE, #DDDDDD, #55555524, #C5C5C5 ;
 @each $brd-color in $border-colors {
   $brd-color: str-replace(to-string($brd-color), '#', '');
   .border-#{$brd-color} { border-color: #{'#'}#{$brd-color} }
@@ -130,7 +132,7 @@ $radius:2,3,;
 
 
 /* Icons=============================================================== */
-$icons: russian-flag, arrow-down, price, location, calendar,phone,search,c,shopping-cart,montaj;
+$icons: russian-flag, arrow-down, price, location, calendar,phone,search,c,shopping-cart,montaj,fb,instagram,youtube, studio-logo,user;
 @each $icon in $icons {
   .icon-#{$icon} { background-image: url("../img/icons/"+ $icon +".svg") }
 }
@@ -153,14 +155,13 @@ $images:  advertising-bg,  ;
 .input::placeholder{
   color: #272C38!important;
   opacity: 0.4!important;
-  font-family: 'TT Hoves' , sans-serif;
  
  
 }
 
 input::-webkit-input-placeholder{
-  @extend .color-white;
-  opacity: 0.6;
+  @extend .color-shark;
+  opacity: 0.5;
   font-size: 15px;
   line-height: 24px;
   transition: all .4s ease;

@@ -116,12 +116,12 @@
     </section>
 </div>
 
-<div class="bg-concrete">
-    <section class="container-fluid px-lg-5">
-        <div class="row px-lg-5 mx-lg-4">
+<div class="bg-concrete pt-5 pb-5">
+    <section class="container-fluid mt-2 px-lg-5">
+        <div class="row justify-content-between px-lg-5 mx-lg-4">
             <div class="col-lg-3">
                 <div>
-                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Сервисы</p>
+                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mt-0 mb-4">Сервисы</p>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24">Шиномонтаж</a>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Сход / Развал</a>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Ремонт шин</a>
@@ -137,7 +137,7 @@
             
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <div>
                     <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Товары</p>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24">Шины</a>
@@ -151,7 +151,7 @@
             
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <div>
                     <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Для клиентов</p>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24">Оплата и доставка</a>
@@ -166,6 +166,71 @@
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Нас выбирают</a>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Сертификаты</a>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Контакты</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div>
+                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Проверить баланс бонусной карты</p>
+                    <form action="">
+                        <input type="text" placeholder="Код бонус карты" class="border border-DEDEDE radius-3 outline-0 w-100p pl-3 py-3 mb-1">
+                        <button type="submit" class="bg-alizarin border-0 radius-3 w-100p d-block py-3 mt-2">
+                            <span class="color-white fw-700 fs-lg-18 lh-lg-24">Проверить</span>
+                        </button>
+                    </form>
+                </div>
+                <div class="border border-DDDDDD radius-3 mt-3 py-4 pl-4">
+                    <span class="color-shark opacity-8 fs-13 lh-24">Имя владельца</span>
+                    <span class="color-shark fw-600 fs-lg-15 lh-24 d-block">Məmmədzadə Məhəmməd</span>
+                    <span class="color-shark opacity-8 fs-13 lh-24 mt-2 pt-1">Статус</span>
+                    <span class="color-shark fw-600 fs-lg-15 lh-24 d-block">Gold</span>
+                    <span class="d-inline-flex mt-2 pt-1">
+                        <span>
+                            <span class="color-shark opacity-8 fs-13 lh-24 mt-2 pt-1">Баланс</span>
+                            <span class="color-shark fw-600 fs-lg-15 lh-24 d-block">14,00 AZN</span>
+                        </span>
+                        <span class="ml-5 pl-2">
+                            <span class="color-shark opacity-8 fs-13 lh-24 mt-2 pt-1">Потрачено</span>
+                            <span class="color-shark fw-600 fs-lg-15 lh-24 d-block">00,00 AZN</span>
+                        </span>
+                    </span>
+                </div>
+                <div class="d-flex justify-content-between mt-5 mb-4">
+                    <span class="color-shark opacity-5 fs-lg-16 lh-lg-24 d-flex-y-center mr-2">Cоциальные сети:</span>
+                    <span class="border border-55555524 radius-3 square-lg-64 d-inline-flex-xy ml-4 mr-1">
+                        <span class="icon icon-fb h-lg-24"></span>
+                    </span>
+                    <span class="border border-55555524 radius-3 square-lg-64 d-inline-flex-xy ml-2 mr-1">
+                        <span class="icon icon-instagram square-24 h-lg-24"></span>
+                    </span>
+                    <span class="border border-55555524 radius-3 square-lg-64 d-inline-flex-xy ml-2">
+                        <span class="icon icon-youtube rect-29-24 "></span>
+                    </span>
+                </div>
+            </div>
+            <span class="border-bot border-C5C5C5 w-100p mx-3"></span>
+        </div>
+        <div class="row justify-content-between px-lg-5 mx-lg-4">
+            <div class="col-lg-5 mt-4 pt-2">
+                <span class="color-shark opacity-5 fs-16 lh-24 mr-4">© 2020 Все права защищены.</span>
+                <span class="color-shark fs-16 lh-24 ml-2 d-inline-flex-y-center">
+                    <span class="opacity-5">Site by</span>
+                    <span class="icon icon-studio-logo square-20 mx-2"></span>
+                    <span class="fw-600 opacity-5">Jeykhun Imanov Studio</span>
+                </span>
+            </div>
+            <div class="col-lg-5 text-right mt-4 pt-2">
+                <span class="d-inline-flex-y-center mr-4 pr-3">
+                    <span class="icon icon-user square-24"></span>
+                    <span class="color-emperor fs-14 lh-24 ml-2">Кабинет дилера</span>
+                </span>
+                <div class="d-inline-flex-y-center ml-5 mr-1">
+                    <span class="icon icon-russian-flag rect-27-20"></span>
+                    <span class="color-shark fw-500 fs-lg-18 lh-lg-24 mx-2">РУ</span>
+                    <span class="icon icon-arrow-down square-16"></span>
+                </div>
+                <div class="d-inline-flex-y-center ml-4">
+                    <span class="icon icon-price square-28"></span>
+                    <span class="icon icon-arrow-down square-16 ml-2"></span>
                 </div>
             </div>
         </div>

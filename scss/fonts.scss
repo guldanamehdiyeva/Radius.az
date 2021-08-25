@@ -40,7 +40,7 @@
   
   @media (min-width: map-get($break-points-config, lg)) {
   /*Font sizes=========================================================*/
-    $font-sizes:15,16,18,20,26,32,45;
+    $font-sizes:15,16,18,19,20,26,32,45;
     @each $size in $font-sizes {
       .fs-lg-#{$size} { font-size: #{$size}px }
     }
