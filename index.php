@@ -139,7 +139,7 @@
             </div>
             <div class="col-lg-2">
                 <div>
-                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Товары</p>
+                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mt-0 mb-4">Товары</p>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24">Шины</a>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Диски</a>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Масло и жидкости</a>
@@ -153,7 +153,7 @@
             </div>
             <div class="col-lg-2">
                 <div>
-                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Для клиентов</p>
+                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mt-0 mb-4">Для клиентов</p>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24">Оплата и доставка</a>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">FAQ</a>
                     <a href="#" class="color-shaft underline-0 fs-lg-16 lh-lg-24 d-block mt-2">Гарантийный талон</a>
@@ -170,7 +170,7 @@
             </div>
             <div class="col-lg-4">
                 <div>
-                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mb-4">Проверить баланс бонусной карты</p>
+                    <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mt-0 mb-4">Проверить баланс бонусной карты</p>
                     <form action="">
                         <input type="text" placeholder="Код бонус карты" class="border border-DEDEDE radius-3 outline-0 w-100p pl-3 py-3 mb-1">
                         <button type="submit" class="bg-alizarin border-0 radius-3 w-100p d-block py-3 mt-2">
@@ -233,7 +233,7 @@
                     <span class="icon icon-arrow-down square-16 ml-2"></span>
                 </div>
             </div>
-        </div>
+        </div> mt-0
     </section>
 </div>
 
