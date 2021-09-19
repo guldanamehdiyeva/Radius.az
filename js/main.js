@@ -6,9 +6,9 @@ var swiper= new Swiper("#slider",{
         disableOnInteraction:true
     },
     
-    loop:true
+    loop:false,
 
 })
 
 
-console.log('hiiss')
+console.log('himm')

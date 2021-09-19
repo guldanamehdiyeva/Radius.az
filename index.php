@@ -116,9 +116,9 @@
     </section>
 </div>
 
-<div class="bg-concrete pt-5 pb-5">
+<div class="bg-concrete pt-5 pb-5 d-none d-lg-flex">
     <section class="container-fluid mt-2 px-lg-5">
-        <div class="row justify-content-between px-lg-5 mx-lg-4">
+        <div class="row justify-content-between d-flex px-lg-5 mx-lg-4">
             <div class="col-lg-3">
                 <div>
                     <p class="color-shark fw-700 fs-lg-19 lh-lg-32 mt-0 mb-4">Сервисы</p>
@@ -196,7 +196,7 @@
                 </div>
                 <div class="d-flex justify-content-between mt-5 mb-4">
                     <span class="color-shark opacity-5 fs-lg-16 lh-lg-24 d-flex-y-center mr-2">Cоциальные сети:</span>
-                    <span class="border border-55555524 radius-3 square-lg-64 d-inline-flex-xy ml-4 mr-1">
+                    <span class="border border-55555524 radius-3 square-lg-64 d-inline-flex-xy ml-xl-4 mr-1">
                         <span class="icon icon-fb h-lg-24"></span>
                     </span>
                     <span class="border border-55555524 radius-3 square-lg-64 d-inline-flex-xy ml-2 mr-1">
@@ -207,23 +207,23 @@
                     </span>
                 </div>
             </div>
-            <span class="border-bot border-C5C5C5 w-100p mx-3"></span>
+            <span class="border-bot border-C5C5C5 w-100p mx-3 mt-lg-3 mt-xl-0"></span>
         </div>
-        <div class="row justify-content-between px-lg-5 mx-lg-4">
-            <div class="col-lg-5 mt-4 pt-2">
-                <span class="color-shark opacity-5 fs-16 lh-24 mr-4">© 2020 Все права защищены.</span>
+        <div class="row justify-content-between d-flex px-lg-5 mx-lg-4">
+            <div class="col-lg-7 d-flex-y-center mt-4 pt-2">
+                <span class="color-shark opacity-5 fs-16 lh-24 mr-xl-4">© 2020 Все права защищены.</span>
                 <span class="color-shark fs-16 lh-24 ml-2 d-inline-flex-y-center">
                     <span class="opacity-5">Site by</span>
                     <span class="icon icon-studio-logo square-20 mx-2"></span>
                     <span class="fw-600 opacity-5">Jeykhun Imanov Studio</span>
                 </span>
             </div>
-            <div class="col-lg-5 text-right mt-4 pt-2">
-                <span class="d-inline-flex-y-center mr-4 pr-3">
+            <div class="col-lg-5 d-flex justify-content-end mt-4 pt-2">
+                <span class="d-inline-flex-y-center mr-xl-4 pr-3">
                     <span class="icon icon-user square-24"></span>
                     <span class="color-emperor fs-14 lh-24 ml-2">Кабинет дилера</span>
                 </span>
-                <div class="d-inline-flex-y-center ml-5 mr-1">
+                <div class="d-inline-flex-y-center ml-xl-5 mr-xl-1">
                     <span class="icon icon-russian-flag rect-27-20"></span>
                     <span class="color-shark fw-500 fs-lg-18 lh-lg-24 mx-2">РУ</span>
                     <span class="icon icon-arrow-down square-16"></span>
@@ -233,7 +233,59 @@
                     <span class="icon icon-arrow-down square-16 ml-2"></span>
                 </div>
             </div>
-        </div> mt-0
+        </div>
+    </section>
+</div>
+
+<div class="bg-alabaster d-lg-none pt-4">
+    <section class="container-fluid mt-1">
+        <div class="row">
+            <div class="col-12">
+                <p class="color-shark fw-700 fs-17 lh-32 mt-0 mb-3">Проверить баланс бонусной карты</p>
+                <form action="" class="mb-4">
+                    <input type="text" placeholder="Код бонус карты" class="border border-DEDEDE radius-3 outline-0 w-100p pl-3 py-3">
+                    <button type="submit" class="bg-alizarin border-0 radius-3 w-100p d-block py-3 mt-3">
+                        <span class="color-white fw-700 fs-16 lh-24">Проверить</span>
+                    </button>
+                </form>
+                <div class="d-flex">
+                    <a href="#" class="color-black underline-0 fw-700 fs-17 lh-32">Сервисы</a>
+                    <a href="#" class="color-black underline-0 fw-700 fs-17 lh-32 mx-4 px-2">Товары</a>
+                    <a href="#" class="color-black underline-0 fw-700 fs-17 lh-32">О нас</a>
+                </div>
+                <a href="#" class="color-black underline-0 fw-700 fs-17 lh-32 mt-3">Для клиентов</a>
+                <span class="opacity-5 d-block  fs-15 lh-24 mt-4 pt-2">Мы в социальных сетях:</span>
+                <div class="d-flex mt-2 pt-1">
+                    <span class="border border-55555524 radius-3 square-64 d-inline-flex-xy mr-1">
+                        <span class="icon icon-fb h-26"></span>
+                    </span>
+                    <span class="border border-55555524 radius-3 square-64 d-inline-flex-xy ml-2 mr-1">
+                        <span class="icon icon-instagram square-24"></span>
+                    </span>
+                    <span class="border border-55555524 radius-3 square-64 d-inline-flex-xy ml-2">
+                        <span class="icon icon-youtube rect-29-24 "></span>
+                    </span>
+                </div>
+                <span class="border-bot border-C5C5C5 d-block w-100p my-4 pt-2"></span>
+                <div class="d-inline-flex">
+                    <div class="d-inline-flex-y-center mr-4">
+                        <span class="icon icon-russian-flag rect-27-20"></span>
+                        <span class="color-shark fw-500 fs-lg-18 lh-lg-24 mx-2">РУ</span>
+                        <span class="icon icon-arrow-down square-16"></span>
+                    </div>
+                    <div class="d-inline-flex-y-center ml-1">
+                        <span class="icon icon-price square-28"></span>
+                        <span class="icon icon-arrow-down square-16 ml-2"></span>
+                    </div>
+                </div>
+                <span class="color-shark fs-16 lh-24 d-inline-flex-y-center mt-4">
+                    <span class="opacity-5">Site by</span>
+                    <span class="icon icon-studio-logo square-20 mx-2"></span>
+                    <span class="fw-600 opacity-5">Jeykhun Imanov Studio</span>
+                </span>
+                <span class="color-shark opacity-5 d-block fs-16 lh-24 mt-3 pt-1 mb-4 pb-2">© 2020 Все права защищены.</span>
+            </div>
+        </div>
     </section>
 </div>
 

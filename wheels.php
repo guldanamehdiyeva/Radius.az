@@ -25,7 +25,7 @@
         <div class="row justify-content-between">
             <div class="col-lg-4 pt-5 pl-xl-5 d-none d-lg-flex">
                 <figure class="h-100p ml-xl-5 pl-xl-1">
-                    <img src="img/wheel.svg" alt="wheel" class="h-100p">
+                    <img src="img/wheels.svg" alt="wheel" class="h-100p">
                 </figure>
             </div>
             <div class="col-lg-7 pl-0 pt-5 pr-xl-5">
@@ -38,48 +38,30 @@
                     </a>
                 </div>
                 <div class="row align-items-center mt-4 pt-2">
-                    <div class="d-flex w-sm-100p w-md-100p w-xl-66p">
-                        <div class="col-3 pl-0">
-                            <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Ширина</span>
-                            <span class="bg-white w-i5-74 rect-101-48 w-md-100p rect-lg-154-56 justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
-                                <span class="color-shark fw-500 fs-16 fs-lg-20 lh-24 my-3 mr-i5-1 mr-4">195</span>
+                        <div class="col-3 px-0">
+                            <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Марка</span>
+                            <span class="bg-white justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
+                                <span class="color-shark fw-500 fs-20 lh-24 my-3 mr-i5-1 mr-4">Mercedes-Benz</span>
                                 <span class="icon icon-arrow-down square-16 ml-md-4 pl-1"></span>
                             </span>
                         </div>
-                        <div class="col-3 ml-3 pl-md-4 ml-md-4 ml-lg-4">
-                            <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Высота</span>
-                            <span class="bg-white w-i5-74 rect-101-48 w-md-100p rect-lg-154-56 justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
-                                <span class="color-shark fw-500 fs-16 fs-lg-20 lh-24 my-3 mr-i5-1 mr-4">65</span>
+                        <div class="col-3 ml-4 px-0">
+                            <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Модель</span>
+                            <span class="bg-white justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
+                                <span class="color-shark fw-500 fs-20 lh-24 my-3 mr-i5-1 mr-4">C-Class (W202)</span>
                                 <span class="icon icon-arrow-down square-16 ml-md-4 pl-1"></span>
                             </span>
                         </div>
-                        <div class="col-3 pl-5 pl-md-4 ml-md-5">
-                            <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Диаметр</span>
-                            <span class="bg-white w-i5-74 rect-101-48 w-md-100p rect-lg-154-56 justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
-                                <span class="color-shark fw-500 fs-16 fs-lg-20 lh-24 my-3 mr-i5-1 mr-4">R16</span>
+                        <div class="col-3 ml-4 px-0">
+                            <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Год выпуска</span>
+                            <span class="bg-white justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
+                                <span class="color-shark fs-20 lh-24 my-3 mr-i5-1 mr-4">1995-2000</span>
                                 <span class="icon icon-arrow-down square-16 ml-md-4 pl-1"></span>
                             </span>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mt-3 mb-4 pb-2 d-lg-none">
-                        <div class="checkbox-wrapper">
-                            <input type="checkbox"  id="check" class="d-none">
-                            <label for="check" class="checkmark  d-block square-16 border border-0072FF pointer  radius-2 pos-relative"></label>
-                        </div>
-                        <span class="color-ribbon fs-15 fs-lg-18 lh-24 ml-2">Добавить шины разных размеров</span>
-                    </div>
-                    <div class="col-md-12 col-xl-4 px-0 pr-md-3 pr-lg-0 pr-xl-3 pl-xl-2 pt-lg-4 mb-4 pb-2 mb-lg-0 pb-lg-0">
-                        <a href="#" class="radius-3 bg-alizarin d-inline-flex-xy w-100p underline-0 mt-2">
-                            <span class="color-white fw-700 fs-16 fs-lg-18 lh-24 my-3">Подбор</span>
-                        </a>
-                    </div>
+                        </div>   
                 </div>
                 <div class="row align-items-center my-4 d-none d-lg-flex">
-                    <div class="checkbox-wrapper">
-                        <input type="checkbox"  id="check" class="d-none">
-                        <label for="check" class="checkmark  d-block square-16 border border-0072FF pointer  radius-2 pos-relative"></label>
-                    </div>
-                    <span class="color-ribbon fs-15 fs-lg-18 lh-24 ml-2">Добавить шины разных размеров</span>
+                   
                 </div>
             </div>
         </div>
@@ -174,7 +156,3 @@
             </div>
     </div>
 </div> 
-
-
-
-

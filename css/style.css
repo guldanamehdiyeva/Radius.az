@@ -18,6 +18,10 @@ figure, .row {
   color: #fff !important;
 }
 
+.color-black {
+  color: #000 !important;
+}
+
 /*Bg-color===========================================================*/
 .bg-white {
   background-color: #fff;
@@ -702,6 +706,11 @@ figure, .row {
   height: 48px;
 }
 
+.square-64 {
+  width: 64px;
+  height: 64px;
+}
+
 .square-80 {
   width: 80px;
   height: 80px;
@@ -751,6 +760,10 @@ figure, .row {
 /*Heights===============================================================*/
 .h-24 {
   height: 24px;
+}
+
+.h-26 {
+  height: 26px;
 }
 
 .h-30 {
@@ -1086,6 +1099,10 @@ input::-webkit-input-placeholder {
 
 .fs-16 {
   font-size: 16px;
+}
+
+.fs-17 {
+  font-size: 17px;
 }
 
 .fs-18 {
