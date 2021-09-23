@@ -37,31 +37,56 @@
                         <span class="color-shark fw-500 fs-12 fs-lg-15 lh-24 my-1 my-md-2 mx-4">По модели авто</span>
                     </a>
                 </div>
-                <div class="row align-items-center mt-4 pt-2">
+                <div class="row align-items-center justify-content-between mt-4 pt-2">
                         <div class="col-3 px-0">
                             <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Марка</span>
-                            <span class="bg-white justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
-                                <span class="color-shark fw-500 fs-20 lh-24 my-3 mr-i5-1 mr-4">Mercedes-Benz</span>
+                            <span class="bg-white w-100p justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
+                                <span class="color-shark fw-500 fs-20 lh-24 my-3 ">Mercedes-Benz</span>
                                 <span class="icon icon-arrow-down square-16 ml-md-4 pl-1"></span>
                             </span>
                         </div>
-                        <div class="col-3 ml-4 px-0">
+                        <div class="col-md-4 col-lg-3 ml-4 px-0">
                             <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Модель</span>
-                            <span class="bg-white justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
-                                <span class="color-shark fw-500 fs-20 lh-24 my-3 mr-i5-1 mr-4">C-Class (W202)</span>
+                            <span class="bg-white w-100p justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
+                                <span class="color-shark fw-500 fs-20 lh-24 my-3">C-Class (W202)</span>
                                 <span class="icon icon-arrow-down square-16 ml-md-4 pl-1"></span>
                             </span>
                         </div>
                         <div class="col-3 ml-4 px-0">
                             <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Год выпуска</span>
-                            <span class="bg-white justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
-                                <span class="color-shark fs-20 lh-24 my-3 mr-i5-1 mr-4">1995-2000</span>
+                            <span class="bg-white w-100p justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
+                                <span class="color-shark fs-20 lh-24 my-3 ">1995-2000</span>
                                 <span class="icon icon-arrow-down square-16 ml-md-4 pl-1"></span>
                             </span>
                         </div>   
                 </div>
-                <div class="row align-items-center my-4 d-none d-lg-flex">
-                   
+                <div class="row align-items-center justify-content-between my-4">
+                    <div class="col-3 px-0">
+                        <span class="color-shark fw-500 fs-14 fs-lg-16 lh-24 d-block">Модификация</span>
+                        <span class="bg-white rect-101-48 w-md-100p rect-lg-154-56 justify-content-md-between px-3 radius-3 d-inline-flex-y-center mt-2">
+                            <span class="color-shark fw-500 fs-20 lh-24 my-3 ">C 200 Kompressor...</span>
+                            <span class="icon icon-arrow-down square-16 pl-1"></span>
+                        </span>
+                    </div> 
+                    <div class="col-3 col-md-4 col-lg-3 ml-4 px-0 d-flex justify-content-between pt-4">
+                        <span class="d-flex-xy square-56 radius-50p bg-white  pointer">
+                            <span class="fs-18 lh-24">16</span>
+                        </span>
+                        <span class="d-flex-xy square-56 radius-50p bg-white pointer">
+                            <span class="fs-18 lh-24">17</span>
+                        </span>
+                        <span class="d-flex-xy square-56 radius-50p bg-white pointer">
+                            <span class="fs-18 lh-24">18</span>
+                        </span>
+                        <span class="d-flex-xy square-56 radius-50p bg-white pointer">
+                            <span class="fs-18 lh-24">19</span>
+                        </span>
+                    </div>
+                    <div class="col-3 ml-4 px-0">
+                        <a href="#" class="radius-3 bg-alizarin d-inline-flex-xy w-100p underline-0 mt-2">
+                            <span class="color-white fw-700 fs-16 fs-lg-18 lh-24 my-3">Подбор</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
